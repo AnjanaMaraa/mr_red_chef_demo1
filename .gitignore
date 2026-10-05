@@ -1,0 +1,28 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (this project has none, but just in case)
+node_modules/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Build output (this site has no build step)
+dist/
+build/
+
+# Temporary test harnesses and local screenshots
+test-*.html
+*.local.png
